@@ -1,6 +1,6 @@
 ---
 title: Jetson运行YOLOv8
-date: 2024-04-05 00:00:00 +0800
+date: 2024-04-04 11:53:00 +0800
 categories: [YOLO]
 tags: [yolo, jetson, linux]
 toc: true 
@@ -77,9 +77,9 @@ import cv2from ultralytics import YOLO# 导入 YOLOv8 模型# 官网下载的训
 
 结果：
 
-![]()
+![](/assets/img/jetsonYOLO1.png)
 
-![]()
+![](/assets/img/jetsonYOLO2.png)
 
 # 训练自己的数据集
 
@@ -101,7 +101,7 @@ import cv2from ultralytics import YOLO# 导入 YOLOv8 模型# 官网下载的训
 yolo task=detect mode=train model=.../yolov8n.pt epochs=100 batch=1 data=.../datasets/boxIdentify,yaml
 ```
 
-![]()
+![](/assets/img/jetsonYOLO3.png)
 
 训练完在.../runs/detect/train/weights文件下生成best.pt和last.pt权重
 
