@@ -22,7 +22,7 @@ math: true
 
 ## 安装Ruby
 
-下载地址：(https://rubyinstaller.org/downloads/ )
+下载地址：[](https://rubyinstaller.org/downloads/)
 
 选择Ruby+Devkit版本，一路确定后在弹窗中选择3
 
@@ -31,7 +31,6 @@ math: true
 检查是否安装成功
 
 ```git
-
 ruby -v
 
 gem -v
