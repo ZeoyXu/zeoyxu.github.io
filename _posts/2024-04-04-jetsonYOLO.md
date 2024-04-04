@@ -2,7 +2,7 @@
 title: Jetson运行YOLOv8
 date: 2024-04-05 00:00:00 +0800
 categories: [YOLO]
-tags: [YOLO, Jetson, Linux]
+tags: [yolo, jetson, linux]
 toc: true 
 comments: false
 math: true
@@ -110,11 +110,3 @@ yolo task=detect mode=train model=.../yolov8n.pt epochs=100 batch=1 data=.../dat
 ```Plain
 yolo task=detect mode=export model=.../best.pt
 ```
-
-
-
-
-
-
-
-

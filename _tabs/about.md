@@ -1,8 +1,11 @@
 ---
-# the default layout is 'page'
+title: About
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-> {: .prompt-tip }
+Hello, I'm Zeoy, a student of UCAS. 
+
+I'm here to write down my notes and something intersting(maybe?)
+
+Looking for my updating!

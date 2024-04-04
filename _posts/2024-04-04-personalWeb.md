@@ -356,7 +356,7 @@ git push origin main
 title: 利用github和Jekyll搭建个人网站
 date: 2024-04-04 11:00:00 +0800
 categories: [Git]   # 目录，可以有子目录
-tags: [网站, 工具]
+tags: [网站, 工具]    # 一定要小写！！！
 toc: true   # 是否开启文章目录
 comments: false    # 是否开启评论
 math: true  # 数学
