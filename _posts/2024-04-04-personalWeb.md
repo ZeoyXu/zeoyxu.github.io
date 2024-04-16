@@ -30,7 +30,7 @@ math: true
 
 检查是否安装成功
 
-```git
+```shell
 ruby -v
 
 gem -v
@@ -38,13 +38,13 @@ gem -v
 
 ## 安装Jekyll
 
-```git
+```shell
 gem install jekyll bundler
 ```
 
 检查安装
 
-```git
+```shell
 jekyll -v
 ```
 
@@ -60,7 +60,7 @@ jekyll -v
 
 在目录下执行
 
-```git
+```shell
 bundle
 ```
 
@@ -323,7 +323,7 @@ jekyll-archives:
 
 在本地预览：
 
-```git
+```shell
 bundle exec jekyll serve
 ```
 
