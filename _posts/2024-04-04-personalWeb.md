@@ -345,7 +345,7 @@ git push origin main
 
 # 发布文章
 
-详见：[Writing a New Post | Chirpy](https://chirpy.cotes.page/posts/write-a-new-post/)
+详见：[Chirpy](https://chirpy.cotes.page/posts/write-a-new-post/)
 
 在_posts文件夹下新建md文件，命名要求：YYYY-MM-DD-TITLE.md
 
