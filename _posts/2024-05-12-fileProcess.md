@@ -50,7 +50,6 @@ for i, file in enumerate(files):
 
     NewName3 = os.path.join(path, 'randnoise' + file)
     shutil.copy(OldName, NewName3)
-    
 ```
 
 ## 将某一类文件移动到另一文件夹
