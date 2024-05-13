@@ -77,5 +77,19 @@ for f, file in enumerate(files):
 将txt文件的每一行第1个字符替换成0
 
 ```python
+import os
+import glob
 
+
+seq_dir = os.path.expanduser("C:\\Users\\Zeoy\\Desktop\\dataset_raw\\part11_label\\")
+files = glob.glob(seq_dir + '*.txt')
+
+for f, file in enumerate(files):
+    readfile = open(file, 'r')
+    fline = readfile.readlines()
+    savetxt = open(file, 'w')
+
+    for j in fline:
+        s = "0" + j[1:]
+        savetxt.write(s)
 ```
