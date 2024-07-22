@@ -35,7 +35,7 @@ sudo apt-cache show nvidia-jetpack
 安装Cpython CUDA torch：
 
 ```shell
-pip3 install Cythonpip3 
+pip3 install Cython
 pip3 install pycuda --user  # 可不用pip3 install numpy torch-1.14.0-cp38-cp38m-linux_aarch64.whl
 ```
 
