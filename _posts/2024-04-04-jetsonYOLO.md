@@ -57,7 +57,8 @@ pip3 install pillowgit clone --branch  v0.16.0 https://github.com/pytorch/vision
 编译：
 
 ```shell
-cd torchvisionpython3 setup.py install --user
+cd torchvision
+python3 setup.py install --user
 ```
 
 # YOLOv8环境
