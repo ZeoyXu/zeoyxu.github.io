@@ -7,7 +7,6 @@ toc: true
 comments: false
 math: true
 ---
-
 # 设备
 IMU: STIM300
 
@@ -215,7 +214,6 @@ Acc:
       acc_n: 2.2493852599747906e-02
       acc_w: 3.6730899065276517e-04
 ```
-
 # 相机标定
 ## 安装Kalibr(ROS)
 安装依赖：
@@ -277,7 +275,6 @@ rosrun kalibr kalibr_calibrate_cameras --target april.yaml --bag cam_calib.bag -
 $ export LD_PRELOAD=/lib/aarch64-linux-gnu/libgomp.so.1:/home/xzy/.local/lib/python3.8/site-packages/igraph/../igraph.libs/libgomp-d22c30c5.so.1.0.0
 ```
 Finally we get cam_calib-camchain.yaml, cam_calib-results-cam.txt, cam_calib-report-cam.pdf.
-
 # 相机IMU联合标定
 ## 帧率设置
 kalibr推荐标定帧率为相机20Hz，IMU200Hz。本人所用的FLIR相机可直接在roslaunch文件里设置帧率；IMU帧率通过topic_tools里的throttle工具修改：
