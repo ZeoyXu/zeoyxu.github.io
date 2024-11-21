@@ -94,7 +94,7 @@ int main()
 }
 ```
 
-```CMakeLists
+```cmake
 cmake_minimum_required(VERSION 3.5)
 
 project(MyStudy)
