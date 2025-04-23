@@ -208,8 +208,8 @@ $$
 
 $$
 \begin{aligned}
-    \mathbf{\hat{P}_k}&=\mathbf{\bar{P}_k}-\bar{\mathbf{P}}_k \mathbf{C}_k^T (\mathbf{C}_k \bar{\mathbf{P}}_k \mathbf{C}_k^T + \mathbf{R})^{-1} \\
-    &=\mathbf{\hat{P}_k}(\mathbf{I} - \mathbf{C}_k^T (\mathbf{C}_k \bar{\mathbf{P}}_k \mathbf{C}_k^T + \mathbf{R})^{-1})
+    \mathbf{\hat{P}_k}&=\mathbf{\bar{P}_k}-\bar{\mathbf{P}}_k \mathbf{C}_k^T (\mathbf{C}_k \bar{\mathbf{P}}_k \mathbf{C}_k^T + \mathbf{R})^{-1}\mathbf{C}_k \bar{\mathbf{P}}_k \\
+    &=(\mathbf{I} - \bar{\mathbf{P}}_k \mathbf{C}_k^T (\mathbf{C}_k \bar{\mathbf{P}}_k \mathbf{C}_k^T + \mathbf{R})^{-1}\mathbf{C}_k )\mathbf{\bar{P}_k}
 \end{aligned}
 $$
 
