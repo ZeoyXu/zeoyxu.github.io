@@ -277,7 +277,6 @@ $$
     \bar{\mathbf{x}}_k &= \mathbf{A}_k \hat{\mathbf{x}}_{k-1} + \mathbf{u}_k, \\
     \bar{\mathbf{P}}_k &= \mathbf{A}_k \hat{\mathbf{P}}_{k-1} \mathbf{A}_k^T + \mathbf{Q}
 \end{aligned}
-
 $$
 
 卡尔曼增益：
