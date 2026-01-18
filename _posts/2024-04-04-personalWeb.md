@@ -91,12 +91,12 @@ description: >- # 由 seo meta 和 atom feed 使用
 
 # 填入你的网站的协议和域名.
 # 例如，'https://username.github.io'，注意不要以 '/' 结尾。
-url: "https://zeoyxu.github.io"
+url: "https://ziyangxu.github.io"
 
-author: ZeoyXu # 全名
+author: ZiyangXu # 全名
 
 github:
-  username: ZeoyXu# Github 用户名
+  username: ZiyangXu# Github 用户名
 
 twitter:
   username: # 推特用户名
@@ -104,7 +104,7 @@ twitter:
 social:
   # 改为你的全名。
   # 这将会显示为帖子的默认作者以及页脚的版权所有者
-  name: ZeoyXu
+  name: ZiyangXu
   email: zeoyxu@foxmail.com # 邮箱地址
   links:
     # 第一个链接将会作为版权所有者的链接
