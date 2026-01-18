@@ -41,6 +41,40 @@ gcc -v -E -x c++ -
 }
 ```
 
+如果用ROS的话，还需添加ROS目录以及catkin_make的编译文件。
+```shell
+catkin_make -DCMAKE_EXPORT_COMPILE_COMMANDS=Yes
+```
+上面命令会在catkin_ws/build/下输出compile_commands.json，包含编译的所有头文件。
+```json
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/xzy/catkin_ws/build/**",
+                "/opt/ros/noetic/include/**",
+                "/usr/include/c++/9/**",
+                "/usr/include/x86_64-linux-gnu/c++/9/**",
+                "/usr/include/c++/9/backward/**",
+                "/usr/lib/gcc/x86_64-linux-gnu/9/include/**",
+                "/usr/local/include/**",
+                "/usr/include/x86_64-linux-gnu/**",
+                "/usr/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compileCommands": "/home/xzy/catkin_ws/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
+```
+
 # 一键cmake
 tasks.json里配置：
 ``` json
